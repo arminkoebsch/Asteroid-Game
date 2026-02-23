@@ -29,4 +29,10 @@ class Astroid{
       s = random(3, 15);
     }
   }
+  
+  void collide(){
+    if (dist(mouseX, 550, x, y)<70){
+      died = true;
+    }
+  }
 }
